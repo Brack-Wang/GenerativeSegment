@@ -4,7 +4,7 @@ import numpy as np
 import torch
 import tifffile as tiff
 from sklearn.model_selection import train_test_split
-monai_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "models", "MONAI")
+monai_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "model", "MONAI")
 sys.path.append(monai_path)
 from monai.transforms import Compose, Lambdad, EnsureTyped
 from monai.data import Dataset, DataLoader

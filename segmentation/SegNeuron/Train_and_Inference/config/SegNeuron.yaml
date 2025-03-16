@@ -5,7 +5,7 @@ MODEL:
   pre_train: True
   # pretrain_path: '/data/wangfeiran/code/brainbow/segmentation/SegNeuron/Pretrain/models/2025-01-21--20-40-29_SegNeuron/model-050000.ckpt'
   # pretrain_path: '/data/wangfeiran/code/brainbow/segmentation/SegNeuron/models/SegNeuronModel.ckpt'
-  pretrain_path: '/data/wangfeiran/code/brainbow/segmentation/SegNeuron/Train_and_Inference/models/2025-02-05--20-35-55_SegNeuron/model-028000.ckpt'
+  pretrain_path: '/data/wangfeiran/code/GenerativeSegment/segmentation/SegNeuron/Train_and_Inference/models/stable_brainbow/2025-02-05--20-35-55_SegNeuron/model-200000.ckpt'
   continue_train: False
   continue_path: '/***/***'
 

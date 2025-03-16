@@ -2,10 +2,10 @@ import os
 
 # ### Setup a data directory and download dataset
 # Directory to read raw images and masks
-data_dir = "/data/wangfeiran/code/brainbow/generation/datasets/segmentation_data"
-brainbow_dir = data_dir + "/cropped_raw"
-mask_dir = data_dir + "/cropped_masks"
-model_dir = "/data/wangfeiran/code/brainbow/output/test"
+data_dir = "/data/wangfeiran/code/GenerativeSegment/generation/"
+brainbow_dir = data_dir + "datasets/segmentation_data/cropped_raw"
+mask_dir = data_dir + "datasets/segmentation_data/cropped_masks"
+model_dir = data_dir + "output/test"
 
 # Training Parameters
 batch_size = 10
@@ -62,6 +62,7 @@ def create_directories():
     os.makedirs(generated_dir, exist_ok=True)
     os.makedirs(raw_dir, exist_ok=True)
     os.makedirs(maskout_dir, exist_ok=True)
+    os.makedirs(model_dir, exist_ok=True)
 
 # Call the function to create directories
 create_directories()
