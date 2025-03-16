@@ -1,0 +1,31 @@
+Metadata-Version: 2.2
+Name: elf
+Version: 0.6.0
+Home-page: https://github.com/constantinpape/elf
+Author: Constantin Pape
+License: MIT
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: imageio
+Requires-Dist: scikit-image
+Requires-Dist: scikit-learn
+Requires-Dist: skan
+Provides-Extra: hdf5
+Requires-Dist: h5py; extra == "hdf5"
+Provides-Extra: zarr
+Requires-Dist: zarr; extra == "zarr"
+Provides-Extra: n5
+Requires-Dist: pyn5; extra == "n5"
+Provides-Extra: cloud
+Requires-Dist: intern; extra == "cloud"
+Provides-Extra: conda-all
+Requires-Dist: vigra; extra == "conda-all"
+Requires-Dist: nifty; extra == "conda-all"
+Requires-Dist: z5py; extra == "conda-all"
+Requires-Dist: h5py; extra == "conda-all"
+Requires-Dist: intern; extra == "conda-all"
+Dynamic: author
+Dynamic: home-page
+Dynamic: license
+Dynamic: provides-extra
+Dynamic: requires-dist
