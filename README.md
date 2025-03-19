@@ -1,4 +1,4 @@
-# Brainbow Neuron Segmentation with Generation enhancement
+# A Unified Framework for Unsupervised Sparse-to-dense Brain Image Generation and Neural Circuit Reconstruction
 
 # Generation
 Pipeline: ZECO genenration
