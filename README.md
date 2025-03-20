@@ -27,7 +27,7 @@ We propose "A Unified Framework for Unsupervised Sparse-to-Dense Brain Image Gen
 
 ### If you find this repo useful, please give it a star ⭐. Thank you!
 
-# Generation
+# Generative Model
 
 We developed a latent diffusion-based generative model combined with our ZECO Module.
 ![generate](./asset/generative.png)
@@ -36,7 +36,7 @@ With sparse labeled data for training, our generative model generates 1,000 synt
 
 ![generateresult](./asset/generateresult.jpg)
 
-# Segmentation
+# Segmentation Model
 
 We introduced a combined strategy that integrates fine-tuning a foundation model (SegNeuron) on our synthetic dataset and a non-learning method to focus on the interesting areas, enabling high-quality segmentation masks on unseen data.
 ![seg](./asset/segmentation_model.png)
