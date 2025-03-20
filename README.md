@@ -13,13 +13,17 @@
 
 <h2> A Unified Framework for Unsupervised Sparse-to-dense Brain Image Generation and Neural Circuit Reconstruction  </h2> 
 
+  <p style="text-align: center; font-style: italic; margin-top: 0rem; margin-bottom: 0rem;">
+       This research is supported by NSF IIS-2525840 and NIH 1RF1MH133764-01.
+     </p>
+
 
 
 </div>
 
 
 &nbsp;
-we propose A Unified Framework for Unsupervised Sparse-to-Dense Brain Image Generation and Neural Circuit Reconstruction. The framework consists of three key stages: (1) a Generative Model to expand datasets by synthesising large number of neuron images with labels, (2) a Segmentation Model to identify neurons and create coarse segmentation masks, and (3) an Interactive Platform to enhance segmentation quality through expert feedback, rapidly producing accurate labels and improving the segmentation model through continuous learning. We release and will continue maintain the code of generative and segmentation model here. 
+We propose "A Unified Framework for Unsupervised Sparse-to-Dense Brain Image Generation and Neural Circuit Reconstruction". The framework consists of three key stages: (1) a Generative Model to expand datasets by synthesising large number of neuron images with labels, (2) a Segmentation Model to identify neurons and create coarse segmentation masks, and (3) an Interactive Platform to enhance segmentation quality through expert feedback, rapidly producing accurate labels and improving the segmentation model through continuous learning. We release and will continue maintain the code of generative and segmentation model here. 
 
 ### If you find this repo useful, please give it a star ⭐ and consider citing our paper. Thank you!
 
