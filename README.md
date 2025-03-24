@@ -43,7 +43,7 @@ We introduced a combined strategy that integrates fine-tuning a foundation model
 
  We evaluated our segmentation model on out-of-domain data, achieving promising and accurate segmentation results with minimal artifacts.
 
-![generateresult](./asset/segmentation_model.png)
+![generateresult](./asset/segresult.png)
 
 
 # Acknowledgements
